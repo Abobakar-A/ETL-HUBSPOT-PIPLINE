@@ -1,0 +1,27 @@
+# Git
+.git/
+.git*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Astro CLI & Docker
+.astro/
+.dockerignore
+
+# HubSpot API Keys & sensitive data
+# ملفات قد تحتوي على مفاتيح API أو بيانات حساسة
+airflow_settings.json
+*.conf
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# Logs and other temporary files
+*.log
